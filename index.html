@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/872a2c0374.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
@@ -20,12 +21,26 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<style>
+								/* Make sure the parent container uses flex */
+								.logo {
+								  display: flex;
+								  justify-content: center; /* Horizontal centering */
+								  align-items: center;     /* Vertical centering */
+								  height: 100vh;           /* Full viewport height to center vertically */
+								}
+							  
+								.logo i {
+								  font-size: 50px; /* You can adjust the size here */
+								}
+							  </style>
+							  <i class="fas fa-brain large-icon"></i>
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Neuro Sapiens</h1>
-								<p></p>
+								<h1>NEURO SAPIENS</h1>
+								<p><span class="highlight">"Neuro" – Greek: Brain / "Sapiens" – Latin: One Who Knows</p>
+								<p class="subline">A glimpse into my journey of exploring the world of neuroscience and beyond.</p>
 							</div>
 						</div>
 						<nav>
@@ -45,7 +60,7 @@
 
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
+								<h2 class="major">INTRODUCTION</h2>
 								
 								<p>Hello there! I'm Atharv Suryawanshi, and I am currently pursuing physics at the Indian Institute of Science. 
 									My passion lies at the intersection of two fascinating realms: computational neuroscience and machine learning. </p>
@@ -64,9 +79,11 @@
 
 						<!-- Projects -->
 							<article id="projects">
-								<h2 class="major">Projects</h2>
+								<h2 class="major">PROJECTS</h2>
 								<!-- <span class="image main"><img src="images/work.jpeg" alt="" /></span> -->
-								<h3><a href="">Dual Pathway Architecture underlying vocal learning in songbirds</a></h3>
+								<h3><a href="https://github.com/AtharvSuryawanshi/Neural-Representations-using-Things-Database">Neural Representations using THINGS database</a></h3>
+								<p>My Bachelor's thesis under the guidance of Dr. Martin Hebart from Max Planck Insitute of Human Cognitive and Brain Sciences to find latent dimensions in visual neural data.</p>
+								<h3><a href="https://drive.google.com/file/d/1Xvcpq1a0RRZ0SCDXmW8ciz45UyjPZ3uz/view?usp=sharing">Dual Pathway Architecture underlying vocal learning in songbirds</a></h3>
 								<p>My research internship at the University of Bordeaux under the guidance of Arthur Leblois and Nicolas Rougier.</p>
 								<h3><a href="https://github.com/AtharvSuryawanshi/Python-tutorials-NEURON-Yale/tree/main">Python Tutorials for NEURON Yale</a>: April 2024</h3>
 								<p>Python tutorials made for NEURON simulation environment for the course MB208: Theoretical and Computational Neuroscience offered at IISc.</p>
@@ -93,7 +110,7 @@
 						</article>
 						<!-- Photos -->
 							<article id="pixelnest">
-								<h2 class="major">PixelNest</h2>
+								<h2 class="major">Pixel Nest</h2>
 								<p>Moments in pixels.								</p>
 								<span class="image main"><img src="images/pixelnest/church.jpg" alt="" /></span>
 								<span class="image main"><img src="images/pixelnest/guitar.jpg" alt="" /></span>
